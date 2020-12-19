@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@400;700&display=swap');
+
+:root{
+    --primary-color: rgb(142, 124, 223);
+    
+}
+
+html{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    /* background-color: var(--primary-color); */
+    height: 100%;
+}
+
+body{
+    font-family: 'Andika New Basic', sans-serif;
+    margin: 0px;
+}
+
+.head{
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    margin-bottom: 1rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.section{
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+
+
+
+.sec1{
+    background-image: url(images/yoda.png);
+    background-size: 10rem;
+    padding-top: 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.sec2{
+    background-image: url(images/Daco_1609599.png);
+    background-size: 9.5rem;
+    padding-top: 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.sec3{
+    background-image: url(images/pig.png);
+    background-size: 10rem;
+    padding-top: 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+.outputbox{
+    border: 3px solid black;
+    height: 50px;
+    overflow: auto;
+    width: 500px;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    font-family: inherit;
+    margin-bottom: 1rem;
+    /* background-color: transparen; */
+}
+
+.button{
+    margin-top: 1rem;
+    font-size: 1rem;
+    max-width: 200px;
+    display: block;
+    /* margin-left: 31%; */
+    font-family: inherit;
+    border-radius: 50px;
+    }
+
+.foot{
+    text-align: center;
+    display: block;
+    margin: auto;
+    background-color:var(--primary-color);
+    font-size: 20px;
+    padding: .5rem;
+    border-top-right-radius: 2rem;
+}
+
+.sec1 .button{
+    background-color:	#938E3C;
+}
+
+.sec2 .button{
+    background-color: #F4C07C;
+}
+
+.sec3 .button{
+    background-color:#ED91A7;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.sec1 .outputbox{
+    color: 	#938E3C;
+}
+.sec2 .outputbox{
+    color: #F4C07C;
+}
+.sec3 .outputbox{
+    color: #ED91A7;
+}
